@@ -1,0 +1,32 @@
+button {
+  border: unset;
+  background-color: unset;
+  cursor: pointer;
+  border-radius: 32px;
+  padding: 5px 15px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(167, 167, 167);
+}
+
+.default {
+  background-color: rgb(167, 167, 167);
+  color: #000;
+}
+
+.primary {
+  background-color: blue;
+  color: #fff;
+}
+
+.warning {
+  background-color: yellow;
+  color: #000;
+}
+
+.danger {
+  background-color: orangered;
+  color: #fff;
+}
